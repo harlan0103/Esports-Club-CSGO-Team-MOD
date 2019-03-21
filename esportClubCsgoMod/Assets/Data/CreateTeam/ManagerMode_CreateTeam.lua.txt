@@ -1,0 +1,186 @@
+﻿--[[
+     1.ZeroBraneStudio not support the .txt file, when you edit the file,you can delete the .txt.
+     2.After edit, can can run the file, verificate the file . when output "the file verification is completed" in the output window on the bottom. 
+     3.Finish the file verification, you mush add the ".txt" back to file extension.
+     
+     1.ZeroBraneStudio 不支持".txt" 文件格式，当你编辑改文件的时候，先去掉".txt"
+     2.编辑完以后，点击右上角的调试按钮 "Start or continue debugging" 或者F5,当右下角输出 "the file verification is completed" ,说明文件验证成功，无错误
+     3.变成验证后，把".txt" 加回去，就完成编辑了
+]]
+
+--[[
+
+  目前可以修改：
+  1.俱乐部基本信息 ManagerMode_CreateTeam_ClubInfo 1- 9999 MOBA 10000-99999FPS
+  2.教练基本信息 ManagerMode_CreateTeam_CoachInfo
+  2.观察员基本信息 ManagerMode_CreateTeam_ObserverInfo
+  2.秘书基本信息 ManagerMode_CreateTeam_SecretaryInfo
+  3.选手基本信息 ManagerMode_CreateTeam_TeamMemberInfo  
+  
+  
+		position = "Top" , 位置(前5个位置需要设置默认位置，替补没有限制)（moba：Top,Jungle,Mid,Adc,Support, fps： EntryFragger,Support,Lurker,IGL,Sniper)
+		potential = 100,  潜力（max 100）
+		ability =  {90,90,90,90,90,90,90,90,90,90,90,90}, 能力
+		skillLimit = 100, 英雄池深度（max 100）
+		heroID = {1,2,3,4,5}, 英雄
+		heroLevel = {5,4,4,4,3}, 英雄熟练度 1,2,3,4,5
+    
+]]
+
+ManagerMode_CreateTeam_ClubInfo={
+	[1]={
+		id=1,
+		name="TeamMOBA",
+		short="T",
+		founded="2016",
+		nation="CHN",
+		figure="teamlogo.png",
+		coach=1,
+		observer=1,
+		secretary=1,
+		players={1,2,3,4,5,6}
+	},
+	[10001]={
+		id=10001,
+		name="TeamFPS",
+		short="T2",
+		founded="2017",
+		nation="CHN",
+		figure="teamlogo.png",
+		coach=2,
+		observer=2,
+		secretary=2,
+		players={6,5,4,3,2,1}
+	}
+}
+
+ManagerMode_CreateTeam_CoachInfo={
+	[1]={	
+		id=1,
+		name="Coach",
+		nation="CHN",
+		head="playerteam_coach1.png",
+	},
+	[2]={	
+		id=2,
+		name="Coach2",
+		nation="CHN",
+		head="playerteam_coach1.png",
+	}
+}
+
+ManagerMode_CreateTeam_ObserverInfo={
+	[1]={
+		id=1,
+		name="Observer",
+		nation="CHN",
+		head="playerteam_coach1.png",
+	},
+	[2]={
+		id=2,
+		name="Observer2",
+		nation="CHN",
+		head="playerteam_coach1.png",
+	}
+}
+
+ManagerMode_CreateTeam_SecretaryInfo={
+	[1]={
+		id=1,
+		name="Secretary1",
+		nation="CHN",
+		head="playerteam_coach1.png",
+	},
+	[2]={
+		id=2,
+		name="Secretary2",
+		nation="CHN",
+		head="playerteam_coach1.png",
+	}
+}
+
+
+ManagerMode_CreateTeam_TeamMemberInfo={
+	[1]={
+		id=1,
+		game="MOBA",
+		firstName="",
+		lastName="",
+		nickName="1",
+		birth="1986.1.6",
+		nation="CHN",
+		region="",
+		customfigure= "playerteam_player1.png",
+
+    position = "Top",
+		potential = 100,
+		ability =  {90,90,90,90,90,90,90,90,90,90,90,90},
+		skillLimit = 100,
+		heroID = {1,2,3,4,5},
+		heroLevel = {5,4,4,4,3},
+    
+	},
+	[2]={
+		id=2,
+		game="MOBA",
+		firstName="",
+		lastName="",
+		nickName="2",
+		birth="1986.1.6",
+		nation="CHN",
+		region="",
+		customfigure= "playerteam_player2.png",
+		potential = 0,
+	},
+	[3]={
+		id=3,
+		game="MOBA",
+		firstName="",
+		lastName="",
+		nickName="3",
+		birth="1986.1.6",
+		nation="CHN",
+		region="",
+		customfigure= "playerteam_player3.png",
+		potential = 0,
+	},
+	[4]={
+		id=4,
+		game="MOBA",
+		firstName="",
+		lastName="",
+		nickName="4",
+		birth="1986.1.6",
+		nation="CHN",
+		region="",
+		customfigure= "playerteam_player4.png",
+		potential = 0,
+	},
+	[5]={
+		id=5,
+		game="MOBA",
+		firstName="",
+		lastName="",
+		nickName="5",
+		birth="1986.1.6",
+		nation="CHN",
+		region="",
+		customfigure= "playerteam_player5.png",
+		potential = 0,
+	},
+	[6]={
+		id=6,
+		game="MOBA",
+		firstName="",
+		lastName="",
+		nickName="6",
+		birth="1986.1.6",
+		nation="CHN",
+		region="",
+		customfigure= "playerteam_player4.png",
+		potential = 0,
+	},
+}
+
+
+print("the file verification is completed.");
