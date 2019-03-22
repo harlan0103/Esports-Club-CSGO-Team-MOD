@@ -1,0 +1,323 @@
+﻿--[[
+     1.ZeroBraneStudio not support the .txt file, when you edit the file,you can delete the .txt.
+     2.After edit, can can run the file, verificate the file . when output "the file verification is completed" in the output window on the bottom. 
+     3.Finish the file verification, you mush add the ".txt" back to file extension.
+     
+     1.ZeroBraneStudio 不支持".txt" 文件格式，当你编辑改文件的时候，先去掉".txt"
+     2.编辑完以后，点击右上角的调试按钮 "Start or continue debugging" 或者F5,当右下角输出 "the file verification is completed" ,说明文件验证成功，无错误
+     3.变成验证后，把".txt" 加回去，就完成编辑了
+     
+]]
+
+--[[
+
+  FPS分为4个赛区,亚洲，欧洲，美洲，非洲和中东地区
+  MOBA分为5个赛区，中国，韩国，欧洲，北美，外卡
+
+  ******务必确保配置文件名字*.lua.txt和文件内三个配置表名字*,*_Team,*_TeamMember名字的正确性。******
+  ******Make sure that the name of config file (*.lua.txt), names of three config tables in file (*, *_Team, *_TeamMember) correct. ******
+
+    All Config   全部配置文件
+
+	AsiaChallengerLeagueFPS.lua.txt  FPS亚洲乙级联赛
+	AsiaMajorLeagueFPS.lua.txt  FPS亚洲甲级联赛
+	AsiaSuperLeagueFPS.lua.txt  FPS亚洲超级联赛
+
+    	EuropeChallengerLeagueFPS.lua.txt FPS欧洲乙级联赛
+	EuropeMajorLeagueFPS.lua.txt  FPS欧洲甲级联赛
+	EuropeSuperLeagueFPS.lua.txt  FPS欧洲超级联赛
+
+	NorthAmericaandSouthAmericaChallengerLeagueFPS.lua.txt  FPS美洲乙级联赛
+	NorthAmericaandSouthAmericaMajorLeagueFPS.lua.txt  FPS美洲甲级联赛
+	NorthAmericaandSouthAmericaSuperLeagueFPS.lua.txt  FPS美洲超级联赛
+
+	AfricaAndMiddleEastChallengerLeagueFPS.lua.txt  FPS非洲及中东区乙级联赛
+	AfricaAndMiddleEastMajorLeagueFPS.lua.txt  FPS非洲及中东区甲级联赛
+	AfricaAndMiddleEastSuperLeagueFPS.lua.txt  FPS非洲及中东区超级联赛
+  
+    	ChinaChallengerLeagueMOBA.lua.txt  MOBA中国区乙级联赛
+	ChinaMajorLeagueMOBA.lua.txt  MOBA中国区甲级联赛
+	ChinaSuperLeagueMOBA.lua.txt  MOBA中国区超级联赛
+	
+	KoreaChallengerLeagueMOBA.lua.txt  MOBA韩国区乙级联赛
+	KoreaMajorLeagueMOBA.lua.txt  MOBA韩国区甲级联赛
+	KoreaSuperLeagueMOBA.lua.txt  MOBA韩国区超级联赛
+
+	EuropeChallengerLeagueMOBA.lua.txt  MOBA欧洲区乙级联赛
+	EuropeMajorLeagueMOBA.lua.txt  MOBA欧洲区甲级联赛
+	EuropeSuperLeagueMOBA.lua.txt  MOBA欧洲区超级联赛
+
+	NorthAmericaChallengerLeagueMOBA.lua.txt  MOBA北美区乙级联赛
+	NorthAmericaMajorLeagueMOBA.lua.txt  MOBA北美区甲级联赛
+	NorthAmericaSuperLeagueMOBA.lua.txt  MOBA北美区超级联赛
+
+	WildCardChallengerLeagueMOBA.lua.txt  MOBA外卡区乙级联赛
+	WildCardMajorLeagueMOBA.lua.txt  MOBA外卡区甲级联赛
+	WildCardSuperLeagueMOBA.lua.txt  MOBA外卡区超级联赛
+  
+  每个赛区都是乙级，甲级，超级3级联赛，
+  12 teams require 每个联赛都有12支战队，
+  每一只战队最多可以有10人
+  
+  想Mod某一个联赛，需要创建对应的联赛文件，按照例子去增加修改.
+  目前可以修改：
+  1.AsiaChallengerLeagueFPS		League Config 联赛基本信息 
+	name 联赛名称
+	icon 联赛图标
+	abbreviation 联赛缩写
+
+  2.AsiaChallengerLeagueFPS_Team		Team Config 战队基本信息 
+	name 战队名称
+	founded 成立时间
+	nation 国家
+		AFG	Asia	Afghanistan
+		ARG	South America	Argentina
+		AUS	Oceania	Australia
+		AUT	Europe	Austria
+		BEL	Europe	Belgium
+		BIH	Europe	Bosnia and Herzegovina
+		BLR	Europe	Belarus
+		BRA	South America	Brazil
+		CAN	North America	Canada
+		CHI	South America	Chile
+		CHN	Asia	China                 中国
+		COL	South America	Colombia
+		CRO	Europe	Croatia
+		CZE	Europe	Czech Republic
+		DEN	Europe	Denmark
+		EGY	Africa	Egypt
+		ESP	Europe	Spain
+		FIN	Europe	Finland
+		FRA	Europe	France
+		GER	Europe	Germany
+		GRE	Europe	Greece
+		HKG	Asia	China Hongkong
+		HUN	Europe	Hungary
+		IDN	Asia	Indonesia
+		IND	Asia	India
+		IRE	Europe	Ireland
+		ISR	Europe	Israel
+		ITA	Europe	Italy
+		JOR	Asia	Jordan
+		JPN	Asia	Japan
+		KAZ	Asia	Kazakhstan
+		KOR	Asia	Korea Republic
+		KSA	Asia	Saudi Arabia
+		MEX	South America	Mexico
+		MGL	Asia	Mongolia
+		nation	continent	name
+		NED	Europe	Netherlands
+		NOR	Europe	Norway
+		NZL	Oceania	New Zealand
+		PER	South America	Peru
+		PHI	Asia	Philippines
+		POL	Europe	Poland
+		POR	Europe	Portugal
+		PRK	Asia	Korea DPR
+		ROU	Europe	Romania
+		RSA	Africa	South Africa
+		RUS	Europe	Russia
+		SIN	Asia	Singapore
+		string	string	string
+		SUI	Europe	Switzerland
+		SVK	Europe	Slovakia
+		SWE	Europe	Sweden
+		THA	Asia	Thailand
+		TPE	Asia	China Taipei
+		TUN	Africa	Tunisia
+		TUR	Europe	Turkey
+		UAE	Asia	United Arab Emirates
+		UK	Europe	United Kingdom
+		UKR	Europe	Ukraine
+		URU	South America	Uruguay
+		USA	North America	United States of America
+		VIE	Asia	Vietnam
+	region 地区
+	figure 图标
+	playerids 选手id
+
+  3.选手基本信息 AsiaChallengerLeagueFPS_TeamMember
+		firstName 名
+		lastName 姓
+		nickName 昵称
+		birth 生日
+		nation 国籍
+		region 地区
+		customfigure 头像图标
+	
+]]
+
+
+
+NorthAmericaandSouthAmericaSuperLeagueFPS={
+		name="ESL Pro League America",
+		icon="eslproeu.png",
+		abbreviation="ESLPRONA",
+	}
+	 
+NorthAmericaandSouthAmericaSuperLeagueFPS_Team={
+	[1]={
+		name="Cloud9",
+		founded="2014.8",
+		nation="USA",
+		region="",
+		figure="c9.png",
+		playerids={16,17,18,19},
+	},
+	[2]={
+		name="compLexity Gaming",
+		founded="2003.8",
+		nation="USA",
+		region="",
+		figure="col.png",
+		playerids={31,32,33,34,35},
+	},
+	[3]={
+		name="eUnited",
+		founded="2016.6",
+		nation="USA",
+		region="",
+		figure="eunited.png",
+		playerids={},
+	},
+	[4]={
+		name="Ghost Gaming",
+		founded="2017.4",
+		nation="USA",
+		region="",
+		figure="ghost.png",
+		playerids={},
+	},
+	[5]={
+		name="NRG Esports",
+		founded="2016.1",
+		nation="USA",
+		region="",
+		figure="nrg.png",
+		playerids={11,12,13,14},
+	}
+	,
+	[6]={
+		name="Rogue",
+		founded="2016.8",
+		nation="USA",
+		region="",
+		figure="rouge.png",
+		playerids={26,27,28,29,30},
+	}
+	,
+	[7]={
+		name="Team Envy",
+		founded="2015.3",
+		nation="USA",
+		region="",
+		figure="envy.png",
+		playerids={21,22,23,24},
+	}
+	,
+	[8]={
+		name="Team Liquid",
+		founded="2015.1",
+		nation="USA",
+		region="",
+		figure="liquid.png",
+		playerids={1,2,3,4,5},
+	}
+	,
+	[9]={
+		name="FURIA Esports",
+		founded="2017.8",
+		nation="BRA",
+		region="",
+		figure="furia.png",
+		playerids={},
+	}
+	,
+	[10]={
+		name="MIBR",
+		founded="2018.06",
+		nation="BRA",
+		region="",
+		figure="mibr.png",
+		playerids={36,37,38,39,40},
+	}
+	,
+	[11]={
+		name="Luminosity Gaming",
+		founded="2015.2",
+		nation="BRA",
+		region="",
+		figure="lg.png",
+		playerids={6,7,8,9,10},
+	}
+	,
+	[12]={
+		name="paiN Gaming",
+		founded="2012.12",
+		nation="BRA",
+		region="",
+		figure="pain.png",
+		playerids={},
+	},
+}
+
+NorthAmericaandSouthAmericaSuperLeagueFPS_TeamMember={
+	-- Liquid
+	[1]={ firstName = "Nick", lastName = "Cannella", nickName = "nitr0", birth = "1995.08.16", nation = "USA", region = "", customfigure = "Liquid_nitr0.png",  },
+	[2]={ firstName = "Keith", lastName = "Markovic", nickName = "NAF", birth = "1997.11.24", nation = "CAN", region = "", customfigure = "Liquid_NAF.png",  },
+	[3]={ firstName = "Jonathan", lastName = "Jablonowski", nickName = "EliGE", birth = "1997.07.16", nation = "USA", region = "", customfigure = "Liquid_EliGE.png",  },
+	[4]={ firstName = "Jake", lastName = "Yip", nickName = "Stewie2K", birth = "1998.01.07", nation = "USA", region = "", customfigure = "Liquid_Stewie2K.png",  },
+	[5]={ firstName = "Russel", lastName = "Van", nickName = "Twistzz", birth = "1999.11.14", nation = "CAN", region = "", customfigure = "Liquid_Twistzz.png",  },
+
+	-- Luminosity
+	[6]={ firstName = "Lucas", lastName = "Lopes", nickName = "steel", birth = "1993.11.19", nation = "BRA", region = "", customfigure = "Luminosity_steel.png",  },
+	[7]={ firstName = "Henrique", lastName = "Teles", nickName = "HEN1", birth = "1995.07.14", nation = "BRA", region = "", customfigure = "Luminosity_HEN1.png",  },
+	[8]={ firstName = "Lucas", lastName = "Teles", nickName = "LUCAS1", birth = "1995.07.14", nation = "BRA", region = "", customfigure = "Luminosity_LUCAS1.png",  },
+	[9]={ firstName = "Ricardo", lastName = "Prass", nickName = "boltz", birth = "1997.04.10", nation = "BRA", region = "", customfigure = "Luminosity_boltz.png",  },
+	[10]={ firstName = "Gabriel", lastName = "Schenato", nickName = "NEKIZ", birth = "1995.11.17", nation = "BRA", region = "", customfigure = "Luminosity_NEKIZ.png",  },
+
+	-- NRG
+	[11]={ firstName = "Damian", lastName = "Steele", nickName = "daps", birth = "1993.07.29", nation = "CAN", region = "", customfigure = "NRG_daps.png",  },
+	[12]={ firstName = "Tarik", lastName = "Celik", nickName = "tarik", birth = "1996.02.18", nation = "USA", region = "", customfigure = "NRG_tarik.png",  },
+	[13]={ firstName = "Vincent", lastName = "Cayonte", nickName = "Brehze", birth = "1998.05.22", nation = "USA", region = "", customfigure = "NRG_Brehze.png",  },
+	[14]={ firstName = "Ethan", lastName = "Arnold", nickName = "Ethan", birth = "2000.03.02", nation = "USA", region = "", customfigure = "NRG_Ethan.png",  },
+	--[15]={ firstName = "Tsvetelin", lastName = "Dimitrov", nickName = "CeRq", birth = "1999.12.07", nation = "BUL", region = "", customfigure = "NRG_CeRq.png",  },
+
+	-- C9
+	[16]={ firstName = "Fabien", lastName = "Fiey", nickName = "kioShiMa", birth = "1994.07.26", nation = "FRA", region = "", customfigure = "Cloud9_kioShiMa.png",  },
+	[17]={ firstName = "William", lastName = "Wierzba", nickName = "RUSH", birth = "1994.05.05", nation = "USA", region = "", customfigure = "Cloud9_RUSH.png",  },
+	[18]={ firstName = "Timothy", lastName = "Ta", nickName = "autimatic", birth = "1996.09.10", nation = "USA", region = "", customfigure = "Cloud9_autimatic.png",  },
+	[19]={ firstName = "Maikil", lastName = "Selim", nickName = "Golden", birth = "1994.02.02", nation = "SWE", region = "", customfigure = "Cloud9_Golden.png",  },
+
+	-- ENVY
+	[21]={ firstName = "Stephen", lastName = "Cutler", nickName = "reltuC", birth = "1988.11.27", nation = "USA", region = "", customfigure = "Envy_reltuC.png",  },
+	[22]={ firstName = "Josh", lastName = "Marzano", nickName = "jdm64", birth = "1990.05.20", nation = "USA", region = "", customfigure = "Envy_jdm64.png",  },
+	[23]={ firstName = "Noah", lastName = "Francis", nickName = "Nifty", birth = "1997.11.23", nation = "USA", region = "", customfigure = "Envy_Nifty.png",  },
+	[24]={ firstName = "Taylor", lastName = "Johnson", nickName = "Drone", birth = "1997.08.29", nation = "USA", region = "", customfigure = "Envy_Drone.png",  },
+
+	-- Rogue
+	[26]={ firstName = "Spencer", lastName = "Martin", nickName = "Hiko", birth = "1990.03.06", nation = "USA", region = "", customfigure = "Rogue_Hiko.png",  },
+	[27]={ firstName = "Mathias", lastName = "Lauridsen", nickName = "MSL", birth = "1994.12.06", nation = "DEN", region = "", customfigure = "Rogue_MSL.png",  },
+	[28]={ firstName = "Hunter", lastName = "Mims", nickName = "SicK", birth = "1998.09.02", nation = "USA", region = "", customfigure = "Rogue_SicK.png",  },
+	[29]={ firstName = "Daniel", lastName = "Kim", nickName = "vice", birth = "1990.01.01", nation = "USA", region = "", customfigure = "Rogue_vice.png",  },
+	[30]={ firstName = "Nikolaj", lastName = "Kristensen", nickName = "niko", birth = "1998.05.28", nation = "DEN", region = "", customfigure = "Rogue_niko.png",  },
+
+	-- Complexity
+	[31]={ firstName = "Jordan", lastName = "Gilbert", nickName = "n0thing", birth = "1990.10.25", nation = "USA", region = "", customfigure = "compLexity_n0thing.png",  },
+	[32]={ firstName = "Shahzeb", lastName = "Khan", nickName = "ShahZaM", birth = "1993.10.08", nation = "USA", region = "", customfigure = "compLexity_ShahZaM.png",  },
+	[33]={ firstName = "Rory", lastName = "Jackson", nickName = "dephh", birth = "1991.12.23", nation = "UK", region = "", customfigure = "compLexity_dephh.png",  },
+	[34]={ firstName = "Peter", lastName = "Jarguz", nickName = "stanislaw", birth = "1994.03.22", nation = "CAN", region = "", customfigure = "compLexity_stanislaw.png",  },
+	[35]={ firstName = "Ricardo", lastName = "Mulholland", nickName = "Rickeh", birth = "1991.11.22", nation = "AUS", region = "", customfigure = "compLexity_Rickeh.png",  },
+
+	-- MIBR
+	[36]={ firstName = "Gabriel Toledo", lastName = "Sguario", nickName = "FalleN", birth = "1991.05.30", nation = "BRA", region = "", customfigure = "MIBR_FalleN.png",  },
+	[37]={ firstName = "Fernando", lastName = "Alvarenga", nickName = "fer", birth = "1991.10.30", nation = "BRA", region = "", customfigure = "MIBR_fer.png",  },
+	[38]={ firstName = "Marcelo", lastName = "David", nickName = "coldzera", birth = "1994.10.31", nation = "BRA", region = "", customfigure = "MIBR_coldzera.png",  },
+	[39]={ firstName = "Epitácio", lastName = "Filho", nickName = "TACO", birth = "1995.01.24", nation = "BRA", region = "", customfigure = "MIBR_TACO.png",  },
+	[40]={ firstName = "João", lastName = "Vasconcellos", nickName = "felps", birth = "1996.12.16", nation = "BRA", region = "", customfigure = "MIBR_felps.png",  },
+}
+
+
+
+
+print("the file verification is completed.");
