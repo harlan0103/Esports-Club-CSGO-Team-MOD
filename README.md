@@ -1,5 +1,6 @@
 # Esports_Club_CSGO_Team_MOD
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)   
+![subscriber](https://img.shields.io/badge/subscribers-130-brightgreen.svg)
 ### This is a mod for steam game 'Esports Club'. 
 ### https://steamcommunity.com/sharedfiles/filedetails/?id=1684871030
 
