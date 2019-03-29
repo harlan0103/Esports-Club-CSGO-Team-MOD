@@ -221,7 +221,7 @@ EuropeSuperLeagueFPS_Team={
 		nation="GER",
 		region="",
 		figure="mouz.png",
-		playerids={6,7,8,9},
+		playerids={6,7,9,10},
 	}
 	,
 	[9]={
@@ -263,88 +263,88 @@ EuropeSuperLeagueFPS_Team={
 
 EuropeSuperLeagueFPS_TeamMember={
 	-- Astralis
-	[1]={ firstName = "Andreas", lastName = "Højsleth", nickName = "Xyp9x", birth = "1995.09.11", nation = "DEN", region = "", customfigure = "Astralis_Xyp9x.png",  },
-	[2]={ firstName = "Peter", lastName = "Rasmussen", nickName = "dupreeh", birth = "1993.03.26", nation = "DEN", region = "", customfigure = "Astralis_dupreeh.png",  },
-	[3]={ firstName = "Lukas", lastName = "Rossander", nickName = "gla1ve", birth = "1995.06.07", nation = "DEN", region = "", customfigure = "Astralis_gla1ve.png",  },
-	[4]={ firstName = "Nicolai", lastName = "Reedtz", nickName = "device", birth = "1995.09.08", nation = "DEN", region = "", customfigure = "Astralis_device.png",  },
-	[5]={ firstName = "Emil", lastName = "Reif", nickName = "Magisk", birth = "1998.03.05", nation = "DEN", region = "", customfigure = "Astralis_Magisk.png",  },
+	[2]={ firstName = "Andreas", lastName = "Højsleth", nickName = "Xyp9x", birth = "1995.09.11", nation = "DEN", region = "", customfigure = "Astralis_Xyp9x.png",  },
+	[1]={ firstName = "Peter", lastName = "Rasmussen", nickName = "dupreeh", birth = "1993.03.26", nation = "DEN", region = "", customfigure = "Astralis_dupreeh.png",  },
+	[4]={ firstName = "Lukas", lastName = "Rossander", nickName = "gla1ve", birth = "1995.06.07", nation = "DEN", region = "", customfigure = "Astralis_gla1ve.png",  },
+	[5]={ firstName = "Nicolai", lastName = "Reedtz", nickName = "device", birth = "1995.09.08", nation = "DEN", region = "", customfigure = "Astralis_device.png",  },
+	[3]={ firstName = "Emil", lastName = "Reif", nickName = "Magisk", birth = "1998.03.05", nation = "DEN", region = "", customfigure = "Astralis_Magisk.png",  },
 
 	-- Mousesports
-	[6]={ firstName = "Finn", lastName = "Andersen", nickName = "karrigan", birth = "1990.04.14", nation = "DEN", region = "", customfigure = "mousesports_karrigan.png",  },
-	[7]={ firstName = "Chris", lastName = "de", nickName = "chrisJ", birth = "1990.05.25", nation = "NED", region = "", customfigure = "mousesports_chrisJ.png",  },
-	[8]={ firstName = "Özgür", lastName = "Eker", nickName = "woxic", birth = "1998.09.02", nation = "TUR", region = "", customfigure = "mousesports_woxic.png",  },
-	[9]={ firstName = "David", lastName = "Čerňanský", nickName = "frozen", birth = "2002.07.18", nation = "SVK", region = "", customfigure = "mousesports_frozen.png",  },
-	-- [10]={ firstName = "Robin", lastName = "Kool", nickName = "ropz", birth = "1999.12.22", nation = "EST", region = "", customfigure = "mousesports_ropz.png",  },
+	[9]={ firstName = "Finn", lastName = "Andersen", nickName = "karrigan", birth = "1990.04.14", nation = "DEN", region = "", customfigure = "mousesports_karrigan.png",  },
+	[10]={ firstName = "Chris", lastName = "de", nickName = "chrisJ", birth = "1990.05.25", nation = "NED", region = "", customfigure = "mousesports_chrisJ.png",  },
+	[6]={ firstName = "Özgür", lastName = "Eker", nickName = "woxic", birth = "1998.09.02", nation = "TUR", region = "", customfigure = "mousesports_woxic.png",  },
+	[7]={ firstName = "David", lastName = "Čerňanský", nickName = "frozen", birth = "2002.07.18", nation = "SVK", region = "", customfigure = "mousesports_frozen.png",  },
+	-- [8]={ firstName = "Robin", lastName = "Kool", nickName = "ropz", birth = "1999.12.22", nation = "EST", region = "", customfigure = "mousesports_ropz.png",  },
 
 	-- North
-	[16]={ firstName = "Casper", lastName = "Møller", nickName = "cadiaN", birth = "1995.06.26", nation = "DEN", region = "", customfigure = "North_cadiaN.png",  },
+	[19]={ firstName = "Casper", lastName = "Møller", nickName = "cadiaN", birth = "1995.06.26", nation = "DEN", region = "", customfigure = "North_cadiaN.png",  },
 	[17]={ firstName = "Philip", lastName = "Aistrup", nickName = "aizy", birth = "1996.06.04", nation = "DEN", region = "", customfigure = "North_aizy.png",  },
 	[18]={ firstName = "Markus", lastName = "Kjærbye", nickName = "Kjaerbye", birth = "1998.04.27", nation = "DEN", region = "", customfigure = "North_Kjaerbye.png",  },
-	[19]={ firstName = "Nicklas", lastName = "Gade", nickName = "gade", birth = "1994.11.06", nation = "DEN", region = "", customfigure = "North_gade.png",  },
+	[16]={ firstName = "Nicklas", lastName = "Gade", nickName = "gade", birth = "1994.11.06", nation = "DEN", region = "", customfigure = "North_gade.png",  },
 	[20]={ firstName = "Valdemar", lastName = "Bjørn", nickName = "valde", birth = "1995.06.12", nation = "DEN", region = "", customfigure = "North_valde.png",  },
 
 	-- NIP
 	[21]={ firstName = "Patrik", lastName = "Lindberg", nickName = "f0rest", birth = "1988.06.10", nation = "SWE", region = "", customfigure = "NiP_f0rest.png",  },
-	[22]={ firstName = "Christopher", lastName = "Alesund", nickName = "GeT_RiGhT", birth = "1990.05.29", nation = "SWE", region = "", customfigure = "NiP_GeT_RiGhT.png",  },
-	[23]={ firstName = "William", lastName = "Sundin", nickName = "draken", birth = "1995.10.05", nation = "SWE", region = "", customfigure = "NiP_draken.png",  },
+	[23]={ firstName = "Christopher", lastName = "Alesund", nickName = "GeT_RiGhT", birth = "1990.05.29", nation = "SWE", region = "", customfigure = "NiP_GeT_RiGhT.png",  },
+	[25]={ firstName = "William", lastName = "Sundin", nickName = "draken", birth = "1995.10.05", nation = "SWE", region = "", customfigure = "NiP_draken.png",  },
 	[24]={ firstName = "Jonas", lastName = "Olofsson", nickName = "Lekr0", birth = "1993.07.02", nation = "SWE", region = "", customfigure = "NiP_Lekr0.png",  },
-	[25]={ firstName = "Fredrik", lastName = "Sterner", nickName = "REZ", birth = "1998.01.11", nation = "SWE", region = "", customfigure = "NiP_REZ.png",  },
+	[22]={ firstName = "Fredrik", lastName = "Sterner", nickName = "REZ", birth = "1998.01.11", nation = "SWE", region = "", customfigure = "NiP_REZ.png",  },
 
 	-- Faze
-	[26]={ firstName = "Dauren", lastName = "Kystaubayev", nickName = "AdreN", birth = "1990.02.04", nation = "KAZ", region = "", customfigure = "FaZe_AdreN.png",  },
-	[27]={ firstName = "Olof", lastName = "Kajbjer", nickName = "olofmeister", birth = "1992.01.31", nation = "SWE", region = "", customfigure = "FaZe_olofmeister.png",  },
-	[28]={ firstName = "Ladislav", lastName = "Kovács", nickName = "GuardiaN", birth = "1991.07.09", nation = "SVK", region = "", customfigure = "FaZe_GuardiaN.png",  },
+	[27]={ firstName = "Dauren", lastName = "Kystaubayev", nickName = "AdreN", birth = "1990.02.04", nation = "KAZ", region = "", customfigure = "FaZe_AdreN.png",  },
+	[28]={ firstName = "Olof", lastName = "Kajbjer", nickName = "olofmeister", birth = "1992.01.31", nation = "SWE", region = "", customfigure = "FaZe_olofmeister.png",  },
+	[30]={ firstName = "Ladislav", lastName = "Kovács", nickName = "GuardiaN", birth = "1991.07.09", nation = "SVK", region = "", customfigure = "FaZe_GuardiaN.png",  },
 	[29]={ firstName = "Nikola", lastName = "Kovač", nickName = "NiKo", birth = "1997.02.16", nation = "BIH", region = "", customfigure = "FaZe_NiKo.png",  },
-	[30]={ firstName = "Håvard", lastName = "Nygaard", nickName = "rain", birth = "1994.08.27", nation = "NOR", region = "", customfigure = "FaZe_rain.png",  },
+	[26]={ firstName = "Håvard", lastName = "Nygaard", nickName = "rain", birth = "1994.08.27", nation = "NOR", region = "", customfigure = "FaZe_rain.png",  },
 
 	-- BIG
-	[31]={ firstName = "Fatih", lastName = "Dayik", nickName = "gobb", birth = "1987.07.10", nation = "GER", region = "", customfigure = "BIG_gob.png",  },
+	[34]={ firstName = "Fatih", lastName = "Dayik", nickName = "gobb", birth = "1987.07.10", nation = "GER", region = "", customfigure = "BIG_gob.png",  },
 	[32]={ firstName = "Johannes", lastName = "Wodarz", nickName = "tabseN", birth = "1995.04.05", nation = "GER", region = "", customfigure = "BIG_tabseN.png",  },
 	[33]={ firstName = "Tizian", lastName = "Feldbusch", nickName = "tiziaN", birth = "1996.06.15", nation = "GER", region = "", customfigure = "BIG_tiziaN.png",  },
-	[34]={ firstName = "Johannes", lastName = "Maget", nickName = "nex", birth = "1992.06.20", nation = "GER", region = "", customfigure = "BIG_nex.png",  },
+	[31]={ firstName = "Johannes", lastName = "Maget", nickName = "nex", birth = "1992.06.20", nation = "GER", region = "", customfigure = "BIG_nex.png",  },
 	[35]={ firstName = "Ismailcan", lastName = "Dörtkardeş", nickName = "XANTARES", birth = "1995.08.07", nation = "TUR", region = "", customfigure = "BIG_XANTARES.png",  },
 
 	-- G2
-	[36]={ firstName = "Audric", lastName = "Jug", nickName = "JaCkz", birth = "1990.01.01", nation = "FRA", region = "", customfigure = "G2_JaCkz.png",  },
-	[37]={ firstName = "Richard", lastName = "Papillon", nickName = "shox", birth = "1992.05.27", nation = "FRA", region = "", customfigure = "G2_shox.png",  },
-	[38]={ firstName = "Kenny", lastName = "Schrub", nickName = "kennyS", birth = "1995.05.19", nation = "FRA", region = "", customfigure = "G2_kennyS.png",  },
-	[39]={ firstName = "François", lastName = "Delaunay", nickName = "AmaNEk", birth = "1990.01.01", nation = "FRA", region = "", customfigure = "G2_AmaNEk.png",  },
-	[40]={ firstName = "Lucas", lastName = "Chastang", nickName = "Lucky", birth = "1998.04.06", nation = "FRA", region = "", customfigure = "G2_Lucky.png",  },
+	[37]={ firstName = "Audric", lastName = "Jug", nickName = "JaCkz", birth = "1990.01.01", nation = "FRA", region = "", customfigure = "G2_JaCkz.png",  },
+	[39]={ firstName = "Richard", lastName = "Papillon", nickName = "shox", birth = "1992.05.27", nation = "FRA", region = "", customfigure = "G2_shox.png",  },
+	[40]={ firstName = "Kenny", lastName = "Schrub", nickName = "kennyS", birth = "1995.05.19", nation = "FRA", region = "", customfigure = "G2_kennyS.png",  },
+	[38]={ firstName = "François", lastName = "Delaunay", nickName = "AmaNEk", birth = "1990.01.01", nation = "FRA", region = "", customfigure = "G2_AmaNEk.png",  },
+	[36]={ firstName = "Lucas", lastName = "Chastang", nickName = "Lucky", birth = "1998.04.06", nation = "FRA", region = "", customfigure = "G2_Lucky.png",  },
 
 	-- Optic
-	[41]={ firstName = "Marco", lastName = "Pfeiffer", nickName = "Snappi", birth = "1990.06.09", nation = "DEN", region = "", customfigure = "OpTic_Snappi.png",  },
+	[44]={ firstName = "Marco", lastName = "Pfeiffer", nickName = "Snappi", birth = "1990.06.09", nation = "DEN", region = "", customfigure = "OpTic_Snappi.png",  },
 	[42]={ firstName = "René", lastName = "Borg", nickName = "cajunb", birth = "1989.12.13", nation = "DEN", region = "", customfigure = "OpTic_cajunb.png",  },
-	[43]={ firstName = "Jakob", lastName = "Hansen", nickName = "JUGi", birth = "1997.04.01", nation = "DEN", region = "", customfigure = "OpTic_JUGi.png",  },
-	[44]={ firstName = "Kristian", lastName = "Wienecke", nickName = "k0nfig", birth = "1997.04.19", nation = "DEN", region = "", customfigure = "OpTic_k0nfig.png",  },
-	[45]={ firstName = "Ismail", lastName = "Ali", nickName = "refrezh", birth = "1998.02.19", nation = "DEN", region = "", customfigure = "OpTic_refrezh.png",  },
+	[45]={ firstName = "Jakob", lastName = "Hansen", nickName = "JUGi", birth = "1997.04.01", nation = "DEN", region = "", customfigure = "OpTic_JUGi.png",  },
+	[41]={ firstName = "Kristian", lastName = "Wienecke", nickName = "k0nfig", birth = "1997.04.19", nation = "DEN", region = "", customfigure = "OpTic_k0nfig.png",  },
+	[43]={ firstName = "Ismail", lastName = "Ali", nickName = "refrezh", birth = "1998.02.19", nation = "DEN", region = "", customfigure = "OpTic_refrezh.png",  },
 
 	-- ENCE
-	[46]={ firstName = "Aleksi", lastName = "Jalli", nickName = "allu", birth = "1992.05.20", nation = "FIN", region = "", customfigure = "ENCE_allu.png",  },
-	[47]={ firstName = "Jani", lastName = "Jussila", nickName = "Aerial", birth = "1993.06.11", nation = "FIN", region = "", customfigure = "ENCE_Aerial.png",  },
-	[48]={ firstName = "Sami", lastName = "Laasanen", nickName = "xseveN", birth = "1994.08.14", nation = "FIN", region = "", customfigure = "ENCE_xseveN.png",  },
+	[50]={ firstName = "Aleksi", lastName = "Jalli", nickName = "allu", birth = "1992.05.20", nation = "FIN", region = "", customfigure = "ENCE_allu.png",  },
+	[46]={ firstName = "Jani", lastName = "Jussila", nickName = "Aerial", birth = "1993.06.11", nation = "FIN", region = "", customfigure = "ENCE_Aerial.png",  },
+	[47]={ firstName = "Sami", lastName = "Laasanen", nickName = "xseveN", birth = "1994.08.14", nation = "FIN", region = "", customfigure = "ENCE_xseveN.png",  },
 	[49]={ firstName = "Aleksi", lastName = "Virolainen", nickName = "Aleksib", birth = "1997.03.30", nation = "FIN", region = "", customfigure = "ENCE_Aleksib.png",  },
-	[50]={ firstName = "Jere", lastName = "Salo", nickName = "sergej", birth = "2002.03.01", nation = "FIN", region = "", customfigure = "ENCE_sergej.png",  },
+	[48]={ firstName = "Jere", lastName = "Salo", nickName = "sergej", birth = "2002.03.01", nation = "FIN", region = "", customfigure = "ENCE_sergej.png",  },
 
 	-- Fnatic
-	[51]={ firstName = "Richard", lastName = "Landström", nickName = "Xizt", birth = "1991.02.22", nation = "SWE", region = "", customfigure = "fnatic_Xizt.png",  },
-	[52]={ firstName = "Jesper", lastName = "Wecksell", nickName = "JW", birth = "1995.02.23", nation = "SWE", region = "", customfigure = "fnatic_JW.png",  },
+	[54]={ firstName = "Richard", lastName = "Landström", nickName = "Xizt", birth = "1991.02.22", nation = "SWE", region = "", customfigure = "fnatic_Xizt.png",  },
+	[55]={ firstName = "Jesper", lastName = "Wecksell", nickName = "JW", birth = "1995.02.23", nation = "SWE", region = "", customfigure = "fnatic_JW.png",  },
 	[53]={ firstName = "Simon", lastName = "Eliasson", nickName = "twist", birth = "1994.12.12", nation = "SWE", region = "", customfigure = "fnatic_twist.png",  },
-	[54]={ firstName = "Freddy", lastName = "Johansson", nickName = "KRIMZ", birth = "1994.04.25", nation = "SWE", region = "", customfigure = "fnatic_KRIMZ.png",  },
-	[55]={ firstName = "Ludvig", lastName = "Brolin", nickName = "Brollan", birth = "2002.06.17", nation = "SWE", region = "", customfigure = "fnatic_Brollan.png",  },
+	[52]={ firstName = "Freddy", lastName = "Johansson", nickName = "KRIMZ", birth = "1994.04.25", nation = "SWE", region = "", customfigure = "fnatic_KRIMZ.png",  },
+	[51]={ firstName = "Ludvig", lastName = "Brolin", nickName = "Brollan", birth = "2002.06.17", nation = "SWE", region = "", customfigure = "fnatic_Brollan.png",  },
 
 	-- VP
-	[56]={ firstName = "Janusz", lastName = "Pogorzelski", nickName = "Snax", birth = "1993.07.05", nation = "POL", region = "", customfigure = "VP_Snax.png",  },
+	[59]={ firstName = "Janusz", lastName = "Pogorzelski", nickName = "Snax", birth = "1993.07.05", nation = "POL", region = "", customfigure = "VP_Snax.png",  },
 	[57]={ firstName = "Paweł", lastName = "Bieliński", nickName = "byali", birth = "1994.04.30", nation = "POL", region = "", customfigure = "VP_byali.png",  },
-	[58]={ firstName = "Michał", lastName = "Müller", nickName = "MICHU", birth = "1996.12.29", nation = "POL", region = "", customfigure = "VP_MICHU.png",  },
-	[59]={ firstName = "Michał", lastName = "Rudzki", nickName = "snatchie", birth = "1998.01.31", nation = "POL", region = "", customfigure = "VP_snatchie.png",  },
+	[56]={ firstName = "Michał", lastName = "Müller", nickName = "MICHU", birth = "1996.12.29", nation = "POL", region = "", customfigure = "VP_MICHU.png",  },
+	[58]={ firstName = "Michał", lastName = "Rudzki", nickName = "snatchie", birth = "1998.01.31", nation = "POL", region = "", customfigure = "VP_snatchie.png",  },
 	[60]={ firstName = "Mateusz", lastName = "Zawistowski", nickName = "TOAO", birth = "1996.10.07", nation = "POL", region = "", customfigure = "VP_TOAO.png",  },
 
 	-- Vitality
-	[61]={ firstName = "Nathan", lastName = "Schmitt", nickName = "NBK", birth = "1994.07.05", nation = "FRA", region = "", customfigure = "Vitality_NBK.png",  },
-	[62]={ firstName = "Dan", lastName = "Madesclaire", nickName = "apEX", birth = "1993.02.22", nation = "FRA", region = "", customfigure = "Vitality_apEX.png",  },
-	[63]={ firstName = "Cédric", lastName = "Guipouy", nickName = "RpK", birth = "1989.12.08", nation = "FRA", region = "", customfigure = "Vitality_RpK.png",  },
-	[64]={ firstName = "Mathieu", lastName = "Herbaut", nickName = "ZywOo", birth = "2000.11.9", nation = "FRA", region = "", customfigure = "Vitality_ZywOo.png",  },
-	[65]={ firstName = "Alex", lastName = "McMeekin", nickName = "ALEX", birth = "1995.09.28", nation = "UK", region = "", customfigure = "Vitality_ALEX.png",  },
+	[64]={ firstName = "Nathan", lastName = "Schmitt", nickName = "NBK", birth = "1994.07.05", nation = "FRA", region = "", customfigure = "Vitality_NBK.png",  },
+	[61]={ firstName = "Dan", lastName = "Madesclaire", nickName = "apEX", birth = "1993.02.22", nation = "FRA", region = "", customfigure = "Vitality_apEX.png",  },
+	[62]={ firstName = "Cédric", lastName = "Guipouy", nickName = "RpK", birth = "1989.12.08", nation = "FRA", region = "", customfigure = "Vitality_RpK.png",  },
+	[65]={ firstName = "Mathieu", lastName = "Herbaut", nickName = "ZywOo", birth = "2000.11.9", nation = "FRA", region = "", customfigure = "Vitality_ZywOo.png",  },
+	[63]={ firstName = "Alex", lastName = "McMeekin", nickName = "ALEX", birth = "1995.09.28", nation = "UK", region = "", customfigure = "Vitality_ALEX.png",  },
 }
 
 

@@ -162,7 +162,7 @@ NorthAmericaandSouthAmericaSuperLeagueFPS_Team={
 		nation="USA",
 		region="",
 		figure="c9.png",
-		playerids={16,17,18,19},
+		playerids={16,17,19,20},
 	},
 	[2]={
 		name="compLexity Gaming",
@@ -263,18 +263,18 @@ NorthAmericaandSouthAmericaSuperLeagueFPS_Team={
 
 NorthAmericaandSouthAmericaSuperLeagueFPS_TeamMember={
 	-- Liquid
-	[1]={ firstName = "Nick", lastName = "Cannella", nickName = "nitr0", birth = "1995.08.16", nation = "USA", region = "", customfigure = "Liquid_nitr0.png",  },
-	[2]={ firstName = "Keith", lastName = "Markovic", nickName = "NAF", birth = "1997.11.24", nation = "CAN", region = "", customfigure = "Liquid_NAF.png",  },
-	[3]={ firstName = "Jonathan", lastName = "Jablonowski", nickName = "EliGE", birth = "1997.07.16", nation = "USA", region = "", customfigure = "Liquid_EliGE.png",  },
-	[4]={ firstName = "Jake", lastName = "Yip", nickName = "Stewie2K", birth = "1998.01.07", nation = "USA", region = "", customfigure = "Liquid_Stewie2K.png",  },
-	[5]={ firstName = "Russel", lastName = "Van", nickName = "Twistzz", birth = "1999.11.14", nation = "CAN", region = "", customfigure = "Liquid_Twistzz.png",  },
+	[4]={ firstName = "Nick", lastName = "Cannella", nickName = "nitr0", birth = "1995.08.16", nation = "USA", region = "", customfigure = "Liquid_nitr0.png",  },
+	[5]={ firstName = "Keith", lastName = "Markovic", nickName = "NAF", birth = "1997.11.24", nation = "CAN", region = "", customfigure = "Liquid_NAF.png",  },
+	[1]={ firstName = "Jonathan", lastName = "Jablonowski", nickName = "EliGE", birth = "1997.07.16", nation = "USA", region = "", customfigure = "Liquid_EliGE.png",  },
+	[3]={ firstName = "Jake", lastName = "Yip", nickName = "Stewie2K", birth = "1998.01.07", nation = "USA", region = "", customfigure = "Liquid_Stewie2K.png",  },
+	[2]={ firstName = "Russel", lastName = "Van", nickName = "Twistzz", birth = "1999.11.14", nation = "CAN", region = "", customfigure = "Liquid_Twistzz.png",  },
 
 	-- Luminosity
-	[6]={ firstName = "Lucas", lastName = "Lopes", nickName = "steel", birth = "1993.11.19", nation = "BRA", region = "", customfigure = "Luminosity_steel.png",  },
-	[7]={ firstName = "Henrique", lastName = "Teles", nickName = "HEN1", birth = "1995.07.14", nation = "BRA", region = "", customfigure = "Luminosity_HEN1.png",  },
-	[8]={ firstName = "Lucas", lastName = "Teles", nickName = "LUCAS1", birth = "1995.07.14", nation = "BRA", region = "", customfigure = "Luminosity_LUCAS1.png",  },
+	[8]={ firstName = "Lucas", lastName = "Lopes", nickName = "steel", birth = "1993.11.19", nation = "BRA", region = "", customfigure = "Luminosity_steel.png",  },
+	[10]={ firstName = "Henrique", lastName = "Teles", nickName = "HEN1", birth = "1995.07.14", nation = "BRA", region = "", customfigure = "Luminosity_HEN1.png",  },
+	[7]={ firstName = "Lucas", lastName = "Teles", nickName = "LUCAS1", birth = "1995.07.14", nation = "BRA", region = "", customfigure = "Luminosity_LUCAS1.png",  },
 	[9]={ firstName = "Ricardo", lastName = "Prass", nickName = "boltz", birth = "1997.04.10", nation = "BRA", region = "", customfigure = "Luminosity_boltz.png",  },
-	[10]={ firstName = "Gabriel", lastName = "Schenato", nickName = "NEKIZ", birth = "1995.11.17", nation = "BRA", region = "", customfigure = "Luminosity_NEKIZ.png",  },
+	[6]={ firstName = "Gabriel", lastName = "Schenato", nickName = "NEKIZ", birth = "1995.11.17", nation = "BRA", region = "", customfigure = "Luminosity_NEKIZ.png",  },
 
 	-- NRG
 	[11]={ firstName = "Damian", lastName = "Steele", nickName = "daps", birth = "1993.07.29", nation = "CAN", region = "", customfigure = "NRG_daps.png",  },
@@ -284,9 +284,9 @@ NorthAmericaandSouthAmericaSuperLeagueFPS_TeamMember={
 	--[15]={ firstName = "Tsvetelin", lastName = "Dimitrov", nickName = "CeRq", birth = "1999.12.07", nation = "BUL", region = "", customfigure = "NRG_CeRq.png",  },
 
 	-- C9
-	[16]={ firstName = "Fabien", lastName = "Fiey", nickName = "kioShiMa", birth = "1994.07.26", nation = "FRA", region = "", customfigure = "Cloud9_kioShiMa.png",  },
-	[17]={ firstName = "William", lastName = "Wierzba", nickName = "RUSH", birth = "1994.05.05", nation = "USA", region = "", customfigure = "Cloud9_RUSH.png",  },
-	[18]={ firstName = "Timothy", lastName = "Ta", nickName = "autimatic", birth = "1996.09.10", nation = "USA", region = "", customfigure = "Cloud9_autimatic.png",  },
+	[17]={ firstName = "Fabien", lastName = "Fiey", nickName = "kioShiMa", birth = "1994.07.26", nation = "FRA", region = "", customfigure = "Cloud9_kioShiMa.png",  },
+	[16]={ firstName = "William", lastName = "Wierzba", nickName = "RUSH", birth = "1994.05.05", nation = "USA", region = "", customfigure = "Cloud9_RUSH.png",  },
+	[20]={ firstName = "Timothy", lastName = "Ta", nickName = "autimatic", birth = "1996.09.10", nation = "USA", region = "", customfigure = "Cloud9_autimatic.png",  },
 	[19]={ firstName = "Maikil", lastName = "Selim", nickName = "Golden", birth = "1994.02.02", nation = "SWE", region = "", customfigure = "Cloud9_Golden.png",  },
 
 	-- ENVY
@@ -310,11 +310,11 @@ NorthAmericaandSouthAmericaSuperLeagueFPS_TeamMember={
 	[35]={ firstName = "Ricardo", lastName = "Mulholland", nickName = "Rickeh", birth = "1991.11.22", nation = "AUS", region = "", customfigure = "compLexity_Rickeh.png",  },
 
 	-- MIBR
-	[36]={ firstName = "Gabriel Toledo", lastName = "Sguario", nickName = "FalleN", birth = "1991.05.30", nation = "BRA", region = "", customfigure = "MIBR_FalleN.png",  },
-	[37]={ firstName = "Fernando", lastName = "Alvarenga", nickName = "fer", birth = "1991.10.30", nation = "BRA", region = "", customfigure = "MIBR_fer.png",  },
+	[40]={ firstName = "Gabriel Toledo", lastName = "Sguario", nickName = "FalleN", birth = "1991.05.30", nation = "BRA", region = "", customfigure = "MIBR_FalleN.png",  },
+	[36]={ firstName = "Fernando", lastName = "Alvarenga", nickName = "fer", birth = "1991.10.30", nation = "BRA", region = "", customfigure = "MIBR_fer.png",  },
 	[38]={ firstName = "Marcelo", lastName = "David", nickName = "coldzera", birth = "1994.10.31", nation = "BRA", region = "", customfigure = "MIBR_coldzera.png",  },
-	[39]={ firstName = "Epitácio", lastName = "Filho", nickName = "TACO", birth = "1995.01.24", nation = "BRA", region = "", customfigure = "MIBR_TACO.png",  },
-	[40]={ firstName = "João", lastName = "Vasconcellos", nickName = "felps", birth = "1996.12.16", nation = "BRA", region = "", customfigure = "MIBR_felps.png",  },
+	[37]={ firstName = "Epitácio", lastName = "Filho", nickName = "TACO", birth = "1995.01.24", nation = "BRA", region = "", customfigure = "MIBR_TACO.png",  },
+	[39]={ firstName = "João", lastName = "Vasconcellos", nickName = "felps", birth = "1996.12.16", nation = "BRA", region = "", customfigure = "MIBR_felps.png",  },
 }
 
 

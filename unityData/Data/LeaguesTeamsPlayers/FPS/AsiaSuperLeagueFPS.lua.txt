@@ -263,17 +263,17 @@ AsiaSuperLeagueFPS_Team={
 
 AsiaSuperLeagueFPS_TeamMember={
 	-- TYLOO
-	[1]={ firstName = "YuLun", lastName = "Cai", nickName = "Summer", birth = "1997.05.16", nation = "CHN", region = "", customfigure = "TYLOO_Summer.png",  },
-	[2]={ firstName = "Hansel", lastName = "Ferdinand", nickName = "BnTeT", birth = "1995.08.28", nation = "IDN", region = "", customfigure = "TYLOO_BnTeT.png",  },
-	[3]={ firstName = "YuanZhang", lastName = "Sheng", nickName = "AttackeR", birth = "1997.01.07", nation = "CHN", region = "", customfigure = "TYLOO_AttackeR.png",  },
-	[4]={ firstName = "HaoWen", lastName = "Xu", nickName = "somebody", birth = "1995.07.03", nation = "CHN", region = "", customfigure = "TYLOO_somebody.png",  },
+	[2]={ firstName = "YuLun", lastName = "Cai", nickName = "Summer", birth = "1997.05.16", nation = "CHN", region = "", customfigure = "TYLOO_Summer.png",  },
+	[4]={ firstName = "Hansel", lastName = "Ferdinand", nickName = "BnTeT", birth = "1995.08.28", nation = "IDN", region = "", customfigure = "TYLOO_BnTeT.png",  },
+	[1]={ firstName = "YuanZhang", lastName = "Sheng", nickName = "AttackeR", birth = "1997.01.07", nation = "CHN", region = "", customfigure = "TYLOO_AttackeR.png",  },
+	[3]={ firstName = "HaoWen", lastName = "Xu", nickName = "somebody", birth = "1995.07.03", nation = "CHN", region = "", customfigure = "TYLOO_somebody.png",  },
 	[5]={ firstName = "Kevin", lastName = "Susanto", nickName = "xccurate", birth = "1998.02.18", nation = "IDN", region = "", customfigure = "TYLOO_xccurate.png",  },
 
 	-- Renegades
 	[6]={ firstName = "Justin", lastName = "Savage", nickName = "jks", birth = "1995.12.12", nation = "AUS", region = "", customfigure = "Renegades_jks.png",  },
-	[7]={ firstName = "Aaron", lastName = "Ward", nickName = "AZR", birth = "1992.10.02", nation = "AUS", region = "", customfigure = "Renegades_AZR.png",  },
+	[9]={ firstName = "Aaron", lastName = "Ward", nickName = "AZR", birth = "1992.10.02", nation = "AUS", region = "", customfigure = "Renegades_AZR.png",  },
 	[8]={ firstName = "Joakim", lastName = "Myrbostad", nickName = "jkaem", birth = "1994.02.27", nation = "NOR", region = "", customfigure = "Renegades_jkaem.png",  },
-	[9]={ firstName = "Sean", lastName = "Kaiwai", nickName = "Gratisfaction", birth = "1996.03.06", nation = "NZL", region = "", customfigure = "Renegades_Gratisfaction.png",  },
+	[7]={ firstName = "Sean", lastName = "Kaiwai", nickName = "Gratisfaction", birth = "1996.03.06", nation = "NZL", region = "", customfigure = "Renegades_Gratisfaction.png",  },
 	[10]={ firstName = "Jay", lastName = "Tregillgas", nickName = "Liazz", birth = "1997.08.29", nation = "AUS", region = "", customfigure = "Renegades_Liazz.png",  },
 }
 

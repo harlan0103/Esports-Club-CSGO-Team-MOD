@@ -28,18 +28,6 @@
 ]]
 
 ManagerMode_CreateTeam_ClubInfo={
-	[1]={
-		id=1,
-		name="TeamMOBA",
-		short="T",
-		founded="2016",
-		nation="CHN",
-		figure="teamlogo.png",
-		coach=1,
-		observer=1,
-		secretary=1,
-		players={1,2,3,4,5,6}
-	},
 	[10001]={
 		id=10001,
 		name="Team SMG",
@@ -47,11 +35,35 @@ ManagerMode_CreateTeam_ClubInfo={
 		founded="2019.3",
 		nation="CHN",
 		figure="smg.png",
-		coach=1,
-		observer=1,
-		secretary=1,
+		coach=5,
+		observer=5,
+		secretary=5,
 		players={}
-	}
+	},
+	[10002]={
+		id=10002,
+		name="Lyngby Vikings",
+		short="LVK",
+		founded="2018.3",
+		nation="DEN",
+		figure="lyngby.png",
+		coach=4,
+		observer=4,
+		secretary=4,
+		players={}
+	},
+	[10003]={
+		id=10003,
+		name="DETONA Gaming",
+		short="DET",
+		founded="2017.10",
+		nation="BRA",
+		figure="detona.png",
+		coach=3,
+		observer=3,
+		secretary=3,
+		players={}
+	},
 }
 
 ManagerMode_CreateTeam_CoachInfo={
@@ -63,7 +75,25 @@ ManagerMode_CreateTeam_CoachInfo={
 	},
 	[2]={	
 		id=2,
-		name="Coach2",
+		name="Coach",
+		nation="DEN",
+		head="playerteam_coach1.png",
+	},
+	[3]={	
+		id=3,
+		name="Coach",
+		nation="BRA",
+		head="playerteam_coach1.png",
+	},
+	[4]={	
+		id=4,
+		name="Coach",
+		nation="DEN",
+		head="playerteam_coach1.png",
+	},
+	[5]={	
+		id=5,
+		name="Coach",
 		nation="CHN",
 		head="playerteam_coach1.png",
 	}
@@ -78,7 +108,25 @@ ManagerMode_CreateTeam_ObserverInfo={
 	},
 	[2]={
 		id=2,
-		name="Observer2",
+		name="Observer",
+		nation="DEN",
+		head="playerteam_coach1.png",
+	},
+	[3]={
+		id=3,
+		name="Observer",
+		nation="BRA",
+		head="playerteam_coach1.png",
+	},
+	[4]={
+		id=4,
+		name="Observer",
+		nation="DEN",
+		head="playerteam_coach1.png",
+	},
+	[5]={
+		id=5,
+		name="Observer",
 		nation="CHN",
 		head="playerteam_coach1.png",
 	}
@@ -87,13 +135,31 @@ ManagerMode_CreateTeam_ObserverInfo={
 ManagerMode_CreateTeam_SecretaryInfo={
 	[1]={
 		id=1,
-		name="Secretary1",
+		name="Secretary",
 		nation="CHN",
 		head="playerteam_coach1.png",
 	},
 	[2]={
 		id=2,
-		name="Secretary2",
+		name="Secretary",
+		nation="DEN",
+		head="playerteam_coach1.png",
+	},
+	[3]={
+		id=3,
+		name="Secretary",
+		nation="BRA",
+		head="playerteam_coach1.png",
+	},
+	[4]={
+		id=4,
+		name="Secretary",
+		nation="DEN",
+		head="playerteam_coach1.png",
+	},
+	[5]={
+		id=5,
+		name="Secretary",
 		nation="CHN",
 		head="playerteam_coach1.png",
 	}
@@ -101,85 +167,7 @@ ManagerMode_CreateTeam_SecretaryInfo={
 
 
 ManagerMode_CreateTeam_TeamMemberInfo={
-	[1]={
-		id=1,
-		game="MOBA",
-		firstName="",
-		lastName="",
-		nickName="1",
-		birth="1986.1.6",
-		nation="CHN",
-		region="",
-		customfigure= "playerteam_player1.png",
 
-    position = "Top",
-		potential = 100,
-		ability =  {90,90,90,90,90,90,90,90,90,90,90,90},
-		skillLimit = 100,
-		heroID = {1,2,3,4,5},
-		heroLevel = {5,4,4,4,3},
-    
-	},
-	[2]={
-		id=2,
-		game="MOBA",
-		firstName="",
-		lastName="",
-		nickName="2",
-		birth="1986.1.6",
-		nation="CHN",
-		region="",
-		customfigure= "playerteam_player2.png",
-		potential = 0,
-	},
-	[3]={
-		id=3,
-		game="MOBA",
-		firstName="",
-		lastName="",
-		nickName="3",
-		birth="1986.1.6",
-		nation="CHN",
-		region="",
-		customfigure= "playerteam_player3.png",
-		potential = 0,
-	},
-	[4]={
-		id=4,
-		game="MOBA",
-		firstName="",
-		lastName="",
-		nickName="4",
-		birth="1986.1.6",
-		nation="CHN",
-		region="",
-		customfigure= "playerteam_player4.png",
-		potential = 0,
-	},
-	[5]={
-		id=5,
-		game="MOBA",
-		firstName="",
-		lastName="",
-		nickName="5",
-		birth="1986.1.6",
-		nation="CHN",
-		region="",
-		customfigure= "playerteam_player5.png",
-		potential = 0,
-	},
-	[6]={
-		id=6,
-		game="MOBA",
-		firstName="",
-		lastName="",
-		nickName="6",
-		birth="1986.1.6",
-		nation="CHN",
-		region="",
-		customfigure= "playerteam_player4.png",
-		potential = 0,
-	},
 }
 
 

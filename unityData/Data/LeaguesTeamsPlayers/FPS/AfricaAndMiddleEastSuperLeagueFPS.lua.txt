@@ -264,10 +264,10 @@ AfricaAndMiddleEastSuperLeagueFPS_Team={
 AfricaAndMiddleEastSuperLeagueFPS_TeamMember={
 	-- Navi
 	[11]={ firstName = "Ioann", lastName = "Sukhariev", nickName = "Edward", birth = "1987.12.28", nation = "UKR", region = "", customfigure = "NAVI_Edward.png",  },
-	[12]={ firstName = "Danylo", lastName = "Teslenko", nickName = "Zeus", birth = "1987.10.08", nation = "UKR", region = "", customfigure = "NAVI_Zeus.png",  },
+	[14]={ firstName = "Danylo", lastName = "Teslenko", nickName = "Zeus", birth = "1987.10.08", nation = "UKR", region = "", customfigure = "NAVI_Zeus.png",  },
 	[13]={ firstName = "Egor", lastName = "Vasilyev", nickName = "flamie", birth = "1997.04.05", nation = "RUS", region = "", customfigure = "NAVI_flamie.png",  },
-	[14]={ firstName = "Aleksandr", lastName = "Kostyliev", nickName = "s1mple", birth = "1997.10.02", nation = "UKR", region = "", customfigure = "NAVI_s1mple.png",  },
-	[15]={ firstName = "Denis", lastName = "Sharipov", nickName = "electronic", birth = "1998.09.02", nation = "RUS", region = "", customfigure = "NAVI_electronic.png",  },
+	[15]={ firstName = "Aleksandr", lastName = "Kostyliev", nickName = "s1mple", birth = "1997.10.02", nation = "UKR", region = "", customfigure = "NAVI_s1mple.png",  },
+	[12]={ firstName = "Denis", lastName = "Sharipov", nickName = "electronic", birth = "1998.09.02", nation = "RUS", region = "", customfigure = "NAVI_electronic.png",  },
 
 	--AVANGAR
 	[16]={ firstName = "Bektiyar", lastName = "Bahytov", nickName = "fitch", birth = "1992.07.15", nation = "KAZ", region = "", customfigure = "AVANGAR_fitch.png",  },
